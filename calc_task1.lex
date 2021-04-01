@@ -1,4 +1,4 @@
-%{   
+%{   c
    int currLine = 1, currPos = 1;
 %}
 
