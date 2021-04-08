@@ -13,6 +13,8 @@ DIGIT    [0-9]
 "="            {printf("EQUAL\n"); currPos += yyleng;}
 "("            {printf("L_PAREN\n"); currPos += yyleng;}
 ")"            {printf("R_PAREN\n"); currPos += yyleng;}
+"_"            {printf("UNDER_SCORE\n"); currPos += yyleng;}
+
 
 {DIGIT}+       {printf("NUMBER %s\n", yytext); currPos += yyleng;}
 
